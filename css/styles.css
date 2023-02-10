@@ -1,0 +1,151 @@
+
+body{
+    text-align: center;
+}
+h1,h2, h3 {
+    font-family: "montserrat";
+}
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.coloured-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: #fff;
+}
+/* Download-buttons */
+.Download-buttons{
+    margin: 5% 3% 5% 0;
+}
+
+/* Navigation bar */
+
+#title{
+    text-align: left;
+}
+.navbar{
+    padding-bottom: 2.5rem;
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 19px;
+}
+.nav-link{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+/* Title-image */
+.Title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position:absolute;
+    top: 24%;
+    right: 23%;
+}
+
+/* Features-section */
+/* Boxes */
+.feat{
+    position: relative;
+    z-index: 1;
+}
+.boxes{
+    padding:7% 3% ;
+}
+.fas:hover{
+    color:#ff4c68;
+}
+.features-title{
+    font-size: 1.5rem;
+    padding:7% 2% 2% 2%;
+}
+.icons p{
+    color: #8f8f8f;
+    width: 77%;
+    margin: 0 auto;
+}
+.fas{
+    color: #ef8172;
+}
+
+/* Testimonials-section */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+/* Press-section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 30px 50px;
+}
+
+/* Pricing-section */
+
+#pricing {
+    padding: 100px;
+}
+.pricing-rw {
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Call_to_action-section */
+
+
+.cta-text{
+    font-family: "montserrat";
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 5% 15%;
+}
+#footer p{
+    color: #8f8f8f;
+    padding: 1% 2% ;
+}
+#footer i{
+    margin: 0 0.5%;
+}
+
+/* Styling the title section responsivity */
+@media  (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .Title-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
